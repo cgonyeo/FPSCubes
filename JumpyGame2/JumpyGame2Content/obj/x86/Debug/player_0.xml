@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>Cube</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2Content\player.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Positions>1 1 -1 1 -1 -1 -1 -1 -1 -1 1 -1 1 0.999999 1 0.999999 -1.000001 1 -1 -1 1 -1 1 1</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 0 3 2 6 5 4 4 7 6 7 4 0 0 1 7 9 8 1 1 2 9 5 6 10 10 11 5 3 0 12 12 13 3</Indices>
+        <Vertices>
+          <PositionIndices>0 1 2 3 4 7 6 5 5 6 2 3 4 7</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.5773492 0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.354743 0.260486 0.597257 0.260486 0.597257 0.017972 0.354743 0.017972 0.354743 0.503 0.354743 0.745514 0.597257 0.745514 0.597257 0.503 0.839771 0.260486 0.839771 0.017972 0.597257 0.988028 0.354743 0.988028 0.112229 0.260486 0.112229 0.017972</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>Material__untitled</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2Content\player.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\PlayerTexture.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

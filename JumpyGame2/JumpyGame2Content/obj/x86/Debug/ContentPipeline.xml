@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Platform2.fbx</Source>
+      <Name>Platform2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\Platform2.xnb</Output>
+      <Time>2012-08-01T22:30:33.2420358-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Platform2_0.xml</Key>
+        <Value>2012-08-01T22:30:41.7991195-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\Platform_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>player.fbx</Source>
+      <Name>player</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\player.xnb</Output>
+      <Time>2012-08-01T21:00:51.8595451-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\player_0.xml</Key>
+        <Value>2012-08-01T21:13:14.8976428-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\PlayerTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Platform.png</Source>
+      <Name>Platform</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\Platform.xnb</Output>
+      <Time>2012-08-01T21:00:51.888549-04:00</Time>
+    </Item>
+    <Item>
+      <Source>PlayerTexture.png</Source>
+      <Name>PlayerTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\PlayerTexture.xnb</Output>
+      <Time>2012-08-01T21:00:51.8875488-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Platform2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Platform2_0.xml</Output>
+      <Time>2012-08-01T22:30:33.2420358-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Platform.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\Platform_0.xnb</Output>
+      <Time>2012-08-01T21:00:51.888549-04:00</Time>
+    </Item>
+    <Item>
+      <Source>player.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\player_0.xml</Output>
+      <Time>2012-08-01T21:00:51.8595451-04:00</Time>
+    </Item>
+    <Item>
+      <Source>PlayerTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\PlayerTexture_0.xnb</Output>
+      <Time>2012-08-01T21:00:51.8875488-04:00</Time>
+    </Item>
+    <Item>
+      <Source>gunImage.png</Source>
+      <Name>gunImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\gunImage.xnb</Output>
+      <Time>2012-08-03T19:25:45.2426591-04:00</Time>
+    </Item>
+    <Item>
+      <Source>cube.fbx</Source>
+      <Name>cube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\cube.xnb</Output>
+      <Time>2012-08-03T19:19:17.3234382-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\cube_0.xml</Key>
+        <Value>2012-08-03T19:19:52.4918097-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\cubeTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>cubeTexture.png</Source>
+      <Name>cubeTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\cubeTexture.xnb</Output>
+      <Time>2012-08-03T19:19:17.3224384-04:00</Time>
+    </Item>
+    <Item>
+      <Source>cube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\cube_0.xml</Output>
+      <Time>2012-08-03T19:19:17.3234382-04:00</Time>
+    </Item>
+    <Item>
+      <Source>cubeTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\cubeTexture_0.xnb</Output>
+      <Time>2012-08-03T19:19:17.3224384-04:00</Time>
+    </Item>
+    <Item>
+      <Source>blackCube.fbx</Source>
+      <Name>blackCube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\blackCube.xnb</Output>
+      <Time>2012-08-04T11:31:50.0875211-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\blackCube_0.xml</Key>
+        <Value>2012-08-04T11:32:37.966955-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\blackCubeTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>blueCube.fbx</Source>
+      <Name>blueCube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\blueCube.xnb</Output>
+      <Time>2012-08-04T11:31:30.6071336-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\blueCube_0.xml</Key>
+        <Value>2012-08-04T11:32:38.544159-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\blueCubeTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>redCube.fbx</Source>
+      <Name>redCube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\redCube.xnb</Output>
+      <Time>2012-08-04T11:32:18.5619595-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\redCube_0.xml</Key>
+        <Value>2012-08-04T11:32:38.8851924-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\redCubeTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>blackCubeTexture.png</Source>
+      <Name>blackCubeTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\blackCubeTexture.xnb</Output>
+      <Time>2012-08-04T11:30:06.5247594-04:00</Time>
+    </Item>
+    <Item>
+      <Source>blueCubeTexture.png</Source>
+      <Name>blueCubeTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\blueCubeTexture.xnb</Output>
+      <Time>2012-08-04T11:30:28.0923585-04:00</Time>
+    </Item>
+    <Item>
+      <Source>redCubeTexture.png</Source>
+      <Name>redCubeTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\redCubeTexture.xnb</Output>
+      <Time>2012-08-04T11:30:52.3096725-04:00</Time>
+    </Item>
+    <Item>
+      <Source>blackCube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\blackCube_0.xml</Output>
+      <Time>2012-08-04T11:31:50.0875211-04:00</Time>
+    </Item>
+    <Item>
+      <Source>blackCubeTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\blackCubeTexture_0.xnb</Output>
+      <Time>2012-08-04T11:30:06.5247594-04:00</Time>
+    </Item>
+    <Item>
+      <Source>blueCube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\blueCube_0.xml</Output>
+      <Time>2012-08-04T11:31:30.6071336-04:00</Time>
+    </Item>
+    <Item>
+      <Source>blueCubeTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\blueCubeTexture_0.xnb</Output>
+      <Time>2012-08-04T11:30:28.0923585-04:00</Time>
+    </Item>
+    <Item>
+      <Source>redCube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\redCube_0.xml</Output>
+      <Time>2012-08-04T11:32:18.5619595-04:00</Time>
+    </Item>
+    <Item>
+      <Source>redCubeTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\redCubeTexture_0.xnb</Output>
+      <Time>2012-08-04T11:30:52.3096725-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clear_back.JPG</Source>
+      <Name>clear_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_back.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clear_front.JPG</Source>
+      <Name>clear_front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_front.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clear_left.JPG</Source>
+      <Name>clear_left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_left.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clear_right.JPG</Source>
+      <Name>clear_right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_right.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clear_top.JPG</Source>
+      <Name>clear_top</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_top.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox.x</Source>
+      <Name>skybox</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\skybox.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\skybox_0.xml</Key>
+        <Value>2012-08-04T11:42:10.102137-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_top_0.xnb</Request>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_right_0.xnb</Request>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_left_0.xnb</Request>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_front_0.xnb</Request>
+      <Request>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>skybox.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\skybox_0.xml</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clear_top.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_top_0.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clear_right.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_right_0.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clear_left.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_left_0.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clear_front.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_front_0.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clear_back.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\clear_back_0.xnb</Output>
+      <Time>2012-08-04T11:40:20.005558-04:00</Time>
+    </Item>
+    <Item>
+      <Source>health.png</Source>
+      <Name>health</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\health.xnb</Output>
+      <Time>2012-08-04T13:33:20.5145143-04:00</Time>
+    </Item>
+    <Item>
+      <Source>splash1.png</Source>
+      <Name>splash1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\splash1.xnb</Output>
+      <Time>2012-08-04T14:17:18.918486-04:00</Time>
+    </Item>
+    <Item>
+      <Source>splash2.png</Source>
+      <Name>splash2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\splash2.xnb</Output>
+      <Time>2012-08-04T14:04:03.0825588-04:00</Time>
+    </Item>
+    <Item>
+      <Source>splash3.png</Source>
+      <Name>splash3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\splash3.xnb</Output>
+      <Time>2012-08-04T14:04:03.0835586-04:00</Time>
+    </Item>
+    <Item>
+      <Source>score.png</Source>
+      <Name>score</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\score.xnb</Output>
+      <Time>2012-08-04T14:23:48.9479692-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2012-08-04T15:47:55.438462-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Battleships.wav</Source>
+      <Name>Battleships</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\Battleships.xnb</Output>
+      <Time>2012-08-04T16:19:44.7167983-04:00</Time>
+    </Item>
+    <Item>
+      <Source>fuse.wav</Source>
+      <Name>fuse</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\fuse.xnb</Output>
+      <Time>2012-08-04T16:11:49.3787106-04:00</Time>
+    </Item>
+    <Item>
+      <Source>youdied.png</Source>
+      <Name>youdied</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\youdied.xnb</Output>
+      <Time>2012-08-04T16:27:44.2724102-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Derek\Documents\Visual Studio 2010\Projects\JumpyGame2\JumpyGame2\JumpyGame2\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-07-30T11:12:59.9100384-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
